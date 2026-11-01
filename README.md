@@ -14,4 +14,5 @@ Construction projects rely on coupled resource flows that evolve stochastically,
 ├── agent/                     # Python source code (DRL agents, Gym environment)
 ├── environment/               # AnyLogic simulation models and interfaces
 ├── models/                    # Trained PPO model weights (.zip)
+├── GA(java)/                  # GA and NSGA-II optimizations
 └── results/                   # Experimental results used to create figures and tables
