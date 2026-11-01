@@ -1,4 +1,4 @@
-# Generalizable-DRL-reource-flow-control
+# Generalizable-DRL-resource-flow-control
 This repository contains the official source code, simulation environment, and trained models for the research paper:
 > **Generalizable Multi-Objective Control of Construction Project Resource Flow Using Deep Reinforcement Learning**  
 > Siavash Moghaddam, Amin Alvanchi, Masoud Zavari  
