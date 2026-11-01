@@ -1,0 +1,22 @@
+# RL & Simulation
+anylogic-alpyne==1.2.1
+gymnasium==1.1.1
+stable_baselines3==2.6.0
+sb3_contrib==2.6.0
+torch==2.7.0
+
+# Optimization & Analytics
+numpy==2.3.2
+pandas==2.2.3
+scipy==1.16.1
+pymoo==0.6.1.5
+cma==4.3.0
+networkx==3.4.2
+
+# Monitoring & Utilities
+matplotlib==3.10.3
+tensorboard==2.20.0
+tqdm==4.67.1
+alive-progress==3.3.0
+PyYAML==6.0.2
+psutil==7.0.0
