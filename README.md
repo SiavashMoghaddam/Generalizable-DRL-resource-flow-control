@@ -11,8 +11,6 @@ Construction projects rely on coupled resource flows that evolve stochastically,
 ├── README.md                  # Project overview, installation, and replication guide
 ├── requirements.txt           # Python dependencies
 ├── LICENSE                    # MIT License
-├── src/                       # Python source code: Custom Gymnasium environment & Alpyne connector, DRL training and inference scripts (PPO, A2C, SAC)
-├── simulation/                # AnyLogic model files (.alp, exported models)
-├── checkpoints/               # Trained DRL model weights (.zip)
-├── baselines/                 # Benchmark algorithms (Java-based GA and NSGA-II)
-└── results/                   # Raw logs, evaluation metrics, and figure-generation scripts
+├── agent/                     # Python source code: Custom Gymnasium environment & Alpyne connector, DRL training and inference scripts (PPO, A2C, SAC)
+├── environment/               # AnyLogic model files (.alp, exported models)
+└── experiments/               # Trained DRL models and GA and NSGA-II optimizations.
