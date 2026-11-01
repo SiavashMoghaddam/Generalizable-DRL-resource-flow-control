@@ -8,11 +8,11 @@ Construction projects rely on coupled resource flows that evolve stochastically,
 
 ## Repository Structure
 ```text
-├── README.md                  # Project overview and instructions
+├── README.md                  # Project overview, installation, and replication guide
 ├── requirements.txt           # Python dependencies
 ├── LICENSE                    # MIT License
-├── agent/                     # Python source code (DRL agents, Gym environment)
-├── environment/               # AnyLogic simulation models and interfaces
-├── models/                    # Trained PPO model weights (.zip)
-├── GA(java)/                  # GA and NSGA-II optimizations
-└── results/                   # Experimental results used to create figures and tables
+├── src/                       # Python source code: Custom Gymnasium environment & Alpyne connector, DRL training and inference scripts (PPO, A2C, SAC)
+├── simulation/                # AnyLogic model files (.alp, exported models)
+├── checkpoints/               # Trained DRL model weights (.zip)
+├── baselines/                 # Benchmark algorithms (Java-based GA and NSGA-II)
+└── results/                   # Raw logs, evaluation metrics, and figure-generation scripts
